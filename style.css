@@ -49,25 +49,31 @@ body{
  .container6{
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 
  }
 
 .container7{
 display: flex;
-justify-content:center
+justify-content:center;
+gap: 10px;
 }
 
 .container8{
 display: flex;
 justify-content:space-between;
+gap: 10px;
 }
 
 .container9{
 display: flex;
 justify-content:space-around;
+gap: 10px;
 }
 
 .container10{
 display: flex;
 justify-content:center;
+gap: 10px
+;
 }

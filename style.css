@@ -61,3 +61,13 @@ justify-content:center
 display: flex;
 justify-content:space-between;
 }
+
+.container9{
+display: flex;
+justify-content:space-around;
+}
+
+.container10{
+display: flex;
+justify-content:center;
+}

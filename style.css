@@ -1,21 +1,63 @@
 body{
-    background-color: rgba(3, 252, 252, 0.066);
+    background-color: rgb(216, 198, 198);
 }
-.container {
-    display: flex;
-    justify-content:flex-end;  
-    align-items: flex-start; 
-    flex-direction: row-reverse; 
-    background-color: rgb(8, 10, 4);
-    width: 500px;
-    height: 500px;
- }           
 
  .box{
     background-color: rgb(198, 245, 247);
     width: 50px;
     height: 50px;
     border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
+ .container1{
+    display: flex;
+    justify-content: flex-start;  
+    gap: 10px;
+    
 
  }
+ .container2{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    
+ }
+
+ .container3{
+    display: flex;
+    justify-content:flex-end; 
+    gap: 8px;
+ }
+
+
+ .container4{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px ;
+ }
+
+ .container5{
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+    
+ }
+
+ .container6{
+    display: flex;
+    justify-content: space-evenly;
+
+ }
+
+.container7{
+display: flex;
+justify-content:center
+}
+
+.container8{
+display: flex;
+justify-content:space-between;
+}
